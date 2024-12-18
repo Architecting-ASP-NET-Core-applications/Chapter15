@@ -1,0 +1,14 @@
+@Chapter15Exceptions_HostAddress = http://localhost:5299
+
+GET {{Chapter15Exceptions_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{Chapter15Exceptions_HostAddress}}/weatherforecast/GetTemperature
+Accept: application/json
+
+###
+
+GET {{Chapter15Exceptions_HostAddress}}/home
+Accept: application/json
